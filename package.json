@@ -14,7 +14,7 @@
   },
   "scripts": {
     "watch-origin": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
-    "watch": "cross-env NODE_ENV=development parcel tfjs-MNIST.html --no-hmr",
+    "watch": "parcel tfjs-MNIST.html",
     "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url ./",
     "postinstall": "yarn upgrade --pattern @tensorflow"
   },
@@ -24,6 +24,6 @@
     "babel-preset-env": "~1.6.1",
     "clang-format": "~1.2.2",
     "cross-env": "~5.1.6",
-    "parcel-bundler": "~1.8.1"
+    "parcel-bundler": "~1.9.7"
   }
 }

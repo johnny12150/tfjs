@@ -20,12 +20,12 @@ import * as tf from '@tensorflow/tfjs';
 // This is a helper class for loading and managing MNIST data specifically.
 // It is a useful example of how you could create your own data manager class
 // for arbitrary data though. It's worth a look :)
-import {MnistData} from 'data';
+import {MnistData} from './data';
 
 // This is a helper class for drawing loss graphs and MNIST images to the
 // window. For the purposes of understanding the machine learning bits, you can
 // largely ignore it
-import * as ui from 'ui';
+import * as ui from './ui';
 
 // Create a sequential neural network model. tf.sequential provides an API for
 // creating "stacked" models where the output from one layer is used as the
